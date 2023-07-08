@@ -1,0 +1,104 @@
+#container1
+{
+    width:800px;
+    height:auto;
+    position: relative;
+    left:30%;
+    padding-top:10px;
+}
+#img{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    /*z-index: -1;*/
+
+}
+h2{
+    color: rgb(18, 159, 23);
+    text-align: center;
+}
+
+
+#container1 input{
+    width:500px;
+    height:40px;
+}
+#container1 button{
+    color: darkgray;
+    cursor: pointer;
+    
+    height:40px;
+}
+body{
+    background-image: url('./images/superheros.jpg');
+     background-color: #152238;
+    color: white;
+    
+    
+}
+li{
+    background-color: white;
+    list-style: none;
+    width:500px;
+}
+#container
+{
+    position: relative;
+    left: 30%;
+    right: 20%s;
+}
+#search-results
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  
+
+}
+ img{
+    width:100px;
+    height:100px;
+   
+    padding: 3px;
+}
+#add-to-fav
+{
+    width:100px;
+    height:50px;
+    background-color: rgb(44, 106, 198);
+    text-align: center;
+    color: rgb(185, 185, 13);
+    font-weight: 500;
+    border-radius: 2px;
+
+}
+#add-to-fav a
+{
+text-decoration: none;
+}
+#name
+{
+    color:skyblue;
+    font-size: 15px;
+}
+
+#favourites
+{
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    width:100px;
+    height:30px;
+    background-color: rgb(237, 203, 79);
+    border:2px solid rgb(63, 3, 147);
+    text-align: center;
+    color: rgb(149, 36, 36);
+
+}
+#favourites a
+{
+text-decoration: none;
+}
